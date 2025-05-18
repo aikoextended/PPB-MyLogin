@@ -75,7 +75,7 @@ fun LoginScreen(){
         Button(onClick = {
             Log.i("Credential", "Email : $email Password : $password")
         }) {
-            Text(text = "Loginn")
+            Text(text = "Login")
         }
 
         Spacer(modifier = Modifier.height(32.dp))
